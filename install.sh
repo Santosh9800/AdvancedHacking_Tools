@@ -6,14 +6,6 @@ GREEN='\033[0;32m'
 CYAN='\033[0;36m'
 NC='\033[0m' # No Color
 
-# Colors
-GREEN='\033[0;32m'
-NC='\033[0m' # No Color
-
-# Colors
-GREEN='\033[0;32m'
-NC='\033[0m' # No Color
-
 # Banner
 echo -e "${GREEN}"
 echo "  ███████╗ █████╗ ███╗   ██╗████████╗ ██████╗ ███████╗██╗  ██╗"
