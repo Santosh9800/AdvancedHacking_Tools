@@ -1,5 +1,15 @@
 # AdvancedHacking_Tools
-This tool is intended for ethical use only. Unauthorized use of this tool for scanning and brute-forcing websites without permission may violate local laws and regulations. Always ensure you have explicit permission to conduct security assessments.
+## 📜 Disclaimer
+
+**Bug_recon.sh** is a powerful reconnaissance and brute-forcing tool created strictly for ethical hacking and professional cybersecurity research purposes.  
+Unauthorized use of this tool to scan, brute-force, or exploit websites, servers, or any other systems without explicit permission from the owners is illegal and may result in severe penalties under local, national, or international laws.  
+
+This tool is intended exclusively for penetration testers, bug bounty hunters, security researchers, and ethical hackers who have **proper authorization** to assess the security posture of digital assets.  
+
+By using **Bug_recon.sh**, you agree to take full responsibility for your actions and ensure that you comply with all applicable legal regulations, industry standards, and ethical guidelines.  
+
+**Always perform security assessments in a responsible, professional, and lawful manner.**
+
 ## Recon Tool Screenshot
 Below is a screenshot of the tool in action:
 
@@ -8,6 +18,11 @@ Below is a screenshot of the tool in action:
 > Script by **Santosh Chhetri**  
 > YouTube Channel: **Master in White Devil**
 
+---
+
+# ⚡Short Message to Bug Hunters
+> "Bug hunting is an art — become the artist, not the tool."
+> 🎯 Stay smart, stay ethical, and dominate the recon field!
 ---
 
 ## 🧩 About
