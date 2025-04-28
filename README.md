@@ -60,17 +60,22 @@ Setup and hunt vulnerabilities like a **professional hacker** 🔥.
 
 ![Screenshot From 2025-04-28 09-40-34](https://github.com/user-attachments/assets/35d90d51-31b3-4857-8cef-54925d8a1519)
 
+## 📜 Disclaimer
 
-## 📦 Installation
-3 Start recon with Bug Hunnt Good For Better Hunnting:
+**Bug_recon.sh** is intended for **authorized, ethical use only**. Unauthorized scanning, brute-forcing, or exploitation using this tool without prior permission from the asset owner may violate laws and regulations. <br> 
+Always ensure you have **explicit written permission** before conducting any security testing activities.
+
+# 📦 Run The Bug_Recon:
+
+3. Start recon with Bug Hunnt Good For Better Hunnting:
     ```bash
    chmod +x bug_recon.sh
    ./bug_recon.sh https://target.com
-
+    ```
 ![Screenshot From 2025-04-28 09-42-56](https://github.com/user-attachments/assets/9e772ae8-3e2f-433a-b7fa-34ec27d48888)
 <br>
 ![Screenshot From 2025-04-28 11-50-31](https://github.com/user-attachments/assets/f8a47607-efbf-4f7f-bdb1-63f2ed04c278)
 <br>
 ![Screenshot From 2025-04-28 11-50-09](https://github.com/user-attachments/assets/53e88648-a93a-47fc-b2bf-a66626ea707f)
-```
+
 
