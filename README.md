@@ -78,4 +78,20 @@ Always ensure you have **explicit written permission** before conducting any sec
 <br>
 ![Screenshot From 2025-04-28 11-50-09](https://github.com/user-attachments/assets/53e88648-a93a-47fc-b2bf-a66626ea707f)
 
+---
+
+## 🙏 Thanks
+
+Thanks for visiting my GitHub repository! ❤️  
+Keep supporting me friends! 🚀  
+For more awesome tools, tutorials, and updates:
+
+- 📢 **Join my Telegram Channel:** [Join Now](https://t.me/santosh45678)  
+- 🎥 **Subscribe my YouTube Channel:** [Master in White Devil](https://youtube.com/@mastersinwhitedevil)
+
+Stay tuned for more hacking tools, bug bounty scripts, and cybersecurity content! 🚀👾
+
+---
+
+
 
