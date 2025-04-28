@@ -2,6 +2,7 @@
 ## 📜 Disclaimer
 
 **Bug_recon.sh** is a powerful reconnaissance and brute-forcing tool created strictly for ethical hacking and professional cybersecurity research purposes.  
+<br>
 Unauthorized use of this tool to scan, brute-force, or exploit websites, servers, or any other systems without explicit permission from the owners is illegal and may result in severe penalties under local, national, or international laws.  
 
 This tool is intended exclusively for penetration testers, bug bounty hunters, security researchers, and ethical hackers who have **proper authorization** to assess the security posture of digital assets.  
@@ -21,7 +22,7 @@ Below is a screenshot of the tool in action:
 ---
 
 # ⚡Short Message to Bug Hunters
-> "Bug hunting is an art — become the artist, not the tool."
+> "Bug hunting is an art — become the artist, not the tool." <br>
 > 🎯 Stay smart, stay ethical, and dominate the recon field!
 ---
 
@@ -56,19 +57,13 @@ Setup and hunt vulnerabilities like a **professional hacker** 🔥.
     chmod +x install.sh
     ./install.sh
     ```
+3 Start recon with Bug Hunnt Good For Better Hunnting:
+```bash
+    chmod +x bug_recon.sh
+    ./bug_recon.sh https://target.com
 
----
-
-## 🚀 Usage
-
-Start recon with Bug Hunnt Good For Better Hunnting :
-
-chmod +x bug_recon.sh
-./bug_recon.sh https://target.com
-
-ITs ./install.sh or bash install.sh is an automated installation script designe by santosh chhetri set up all required tools and dependencies for the Bug Recon project.
-
-This script automatically updates your system, installs necessary packages, and configures the environment for smooth usage of the directory brute-forcing tool.
+```
+<br> <br>
 
 ![Screenshot From 2025-04-28 09-39-43](https://github.com/user-attachments/assets/7fb31514-5dfb-41ab-b034-0e981f0f1460) <br>
 
