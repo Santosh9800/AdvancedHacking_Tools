@@ -20,9 +20,11 @@ Setup and hunt vulnerabilities like a **professional hacker** 🔥.
 ## 🛠 Features
 - Brute-force directories using **ffuf** and **custom wordlists**.
 - Fully automated system setup script (`install.sh`).
-- Fast, clean, hacker-style output.
+- Support Kali Linux and Parrot Linux etc more.
+- Fast, clean, save the output.
 - Lightweight and easy to use.
-- Beginner to Pro friendly!
+- Beginner to Pro friendly
+  
 
 ---
 
@@ -44,9 +46,8 @@ Setup and hunt vulnerabilities like a **professional hacker** 🔥.
 
 ## 🚀 Usage
 
-Start recon with custom wordlist:
+Start recon with Bug Hunnt Good For Better Hunnting :
 
-```bash
 chmod +x bug_recon.sh
 ./bug_recon.sh https://target.com
 
