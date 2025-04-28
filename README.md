@@ -40,8 +40,7 @@ Setup and hunt vulnerabilities like a **professional hacker** 🔥.
 - Fast, clean, save the output.
 - Lightweight and easy to use.
 - Beginner to Pro friendly
-  
-
+  `
 ---
 
 ## 📦 Installation
@@ -56,13 +55,7 @@ Setup and hunt vulnerabilities like a **professional hacker** 🔥.
     ```bash
     chmod +x install.sh
     ./install.sh
-    ```
-3 Start recon with Bug Hunnt Good For Better Hunnting:
-```bash
-   chmod +x bug_recon.sh
-   ./bug_recon.sh https://target.com
 
-```
 ![Screenshot From 2025-04-28 09-39-43](https://github.com/user-attachments/assets/7fb31514-5dfb-41ab-b034-0e981f0f1460) <br>
 
 ![Screenshot From 2025-04-28 09-40-34](https://github.com/user-attachments/assets/35d90d51-31b3-4857-8cef-54925d8a1519)
@@ -79,5 +72,5 @@ Setup and hunt vulnerabilities like a **professional hacker** 🔥.
 ![Screenshot From 2025-04-28 11-50-31](https://github.com/user-attachments/assets/f8a47607-efbf-4f7f-bdb1-63f2ed04c278)
 <br>
 ![Screenshot From 2025-04-28 11-50-09](https://github.com/user-attachments/assets/53e88648-a93a-47fc-b2bf-a66626ea707f)
-
+```
 
