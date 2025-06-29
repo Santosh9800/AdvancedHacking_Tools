@@ -19,66 +19,6 @@ echo "        👑  Name    : Santosh Chhetri"
 echo "        📺  Channel : Master in White Devil"
 echo -e "${NC}"
 
-# Real IP & Location Details
-echo -e "${GREEN}\n🌍 Fetching Public IP & Geo Info...${NC}"
-ipinfo=$(curl -s ipinfo.io)
-
-ip=$(echo "$ipinfo" | grep ip | cut -d '"' -f4)
-city=$(echo "$ipinfo" | grep city | cut -d '"' -f4)
-region=$(echo "$ipinfo" | grep region | cut -d '"' -f4)
-country=$(echo "$ipinfo" | grep country | cut -d '"' -f4)
-loc=$(echo "$ipinfo" | grep loc | cut -d '"' -f4)
-org=$(echo "$ipinfo" | grep org | cut -d '"' -f4)
-timezone=$(echo "$ipinfo" | grep timezone | cut -d '"' -f4)
-
-latitude=$(echo "$loc" | cut -d ',' -f1)
-longitude=$(echo "$loc" | cut -d ',' -f2)
-
-# Location Map URL
-map_url="https://www.google.com/maps/search/?api=1&query=$latitude,$longitude"
-
-# Output
-echo -e "${CYAN}🔍 Real IP       : $ip"
-echo -e "🏙️ City           : $city"
-echo -e "🌐 Region         : $region"
-echo -e "🗺️ Country        : $country"
-echo -e "📍 Coordinates    : $loc"
-echo -e "🛰️ ISP            : $org"
-echo -e "🕒 Timezone       : $timezone"
-echo -e "🗺️ Map Location   : $map_url${NC}"
-
-# OS and Linux Distro Detection
-echo -e "${GREEN}\n🧠 Detecting OS and Distro Info...${NC}"
-
-os_type=$(uname -o)
-kernel=$(uname -r)
-hostname=$(hostname)
-arch=$(uname -m)
-
-# Detect Distro
-if [ -f /etc/os-release ]; then
-    distro=$(grep '^NAME=' /etc/os-release | cut -d '=' -f2 | tr -d '"')
-    version=$(grep '^VERSION=' /etc/os-release | cut -d '=' -f2 | tr -d '"')
-else
-    distro="Unknown"
-    version="Unknown"
-fi
-
-# Device Detection (for Android/Termux)
-termux_check=$(uname -a | grep -i android)
-if [ -n "$termux_check" ]; then
-    distro="Termux / Android"
-fi
-
-echo -e "${CYAN}💻 OS Type        : $os_type"
-echo -e "🐧 Distro         : $distro"
-echo -e "🔢 Version        : $version"
-echo -e "🧬 Architecture   : $arch"
-echo -e "⚙️ Kernel         : $kernel"
-echo -e "💡 Hostname       : $hostname${NC}"
-
-echo -e "${GREEN}\n✅ All Sensitive System Info Captured. Ready to Rock!${NC}"
-
 echo -e "${GREEN}[+] Updating System Packages...${NC}"
 sudo apt update -y && sudo apt upgrade -y
 
